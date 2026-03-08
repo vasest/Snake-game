@@ -1,11 +1,5 @@
-body {
-    text-align: center;
-    font-family: Arial;
-    background: #222;
-    color: white;
-}
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
 
-canvas {
-    background: black;
-    border: 3px solid white;
-}
+ctx.fillStyle = "lime";
+ctx.fillRect(50, 50, 20, 20);
